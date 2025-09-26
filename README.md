@@ -30,6 +30,11 @@ Vulnezer is a simple, transparent, and understandable program. Less than 10 mega
 
  3) Get the final result of the sequence for correction based on a composite formula (CVSS, EPSS, and KEV).
 <img width="592" height="370" alt="image" src="https://github.com/user-attachments/assets/71a8bb6c-c996-44a5-b00a-278367fb48a3" />
-
+As a result, you receive a clear order of vulnerability remediation — notifications about vulnerabilities that require attention according to the PCI DSS standard or if they have evidence of exploitation and are therefore recommended for remediation in the near future (30 days). 
 
 <img width="2530" height="1109" alt="image" src="https://github.com/user-attachments/assets/f7c354ad-b974-4ed4-98b3-1f4f9c7175b4" />
+
+To work, you will need API keys from NVD (https://nvd.nist.gov/developers/request-an-api-key) and Vulnercheck (https://www.vulncheck.com/). Just paste them into the .env file.
+
+Happy vulnerability fixing!
+
