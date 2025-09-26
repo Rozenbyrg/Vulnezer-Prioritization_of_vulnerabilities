@@ -17,7 +17,8 @@ Confirmed CVSS problems are:
 
 
 How Vulnezer solves these problems - it reflects real evidence of exploitation (KEV) and the probability of a vulnerability being exploited in the next 30 days (EPSS). This gives you a real, numerical, unique value that characterises the actual risk, not just the severity according to CVSS.
-<img width="1517" height="947" alt="image" src="https://github.com/user-attachments/assets/709a8413-94a4-48d5-b078-6d6e29eff769" />
+<img width="780" height="487" alt="image" src="https://github.com/user-attachments/assets/c77e0bec-93db-4f93-beac-46fb893869ba" />
+
 
 Vulnezer is a simple, transparent, and understandable program. Less than 10 megabytes in size, it can be installed on any device, and you can change the weight of the coefficients depending on your strategy. The framework has an academic background, in particular on official reports from Cisco.
 
