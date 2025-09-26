@@ -20,7 +20,7 @@ How Vulnezer solves these problems - it reflects real evidence of exploitation (
 <img width="1517" height="947" alt="image" src="https://github.com/user-attachments/assets/709a8413-94a4-48d5-b078-6d6e29eff769" />
 
 Vulnezer is a simple, transparent, and understandable program. Less than 10 megabytes in size, it can be installed on any device, and you can change the weight of the coefficients depending on your strategy. The framework has an academic background, in particular on official reports from Cisco.
-<img width="1062" height="667" alt="image" src="https://github.com/user-attachments/assets/e1ef503f-6679-4d21-8e22-17cd279d5b54" />
+
 3 simple steps:
 
  1) Scan your potentially vulnerable object with any scanner.
