@@ -34,7 +34,37 @@ As a result, you receive a clear order of vulnerability remediation — notifica
 
 <img width="2530" height="1109" alt="image" src="https://github.com/user-attachments/assets/f7c354ad-b974-4ed4-98b3-1f4f9c7175b4" />
 
-To work, you will need API keys from NVD (https://nvd.nist.gov/developers/request-an-api-key) and Vulnercheck (https://www.vulncheck.com/). Just paste them into the .env file.
+
+
+To install it, you need to:
+
+1) Install Python on your computer if it is not already installed. You can do this from the official website https://www.python.org/downloads/
+2) Install the libraries listed in the requirements.txt file.
+3) You need to obtain API keys (VULNCHECK and NVD) and save them in the .env file (you need to open it as a text file and then save it with the .env extension).
+ NVD (https://nvd.nist.gov/developers/request-an-api-key) and Vulnercheck (https://www.vulncheck.com/). 
+5) Run the command line from the directory where your application is located.
+
+
+
+
+You can process individual vulnerabilities or upload them in bulk, for example, using CSV files.  
+For help, use the command  
+py Vulnezer.py -h   
+Processing a single vulnerability:
+py Vulnezer.py CVE-2025-8875    
+From a CSV file:
+py Vulnezer.py -i Test.csv  (where name.csv is your file)
+To output the file:
+py Vulnezer.py -i Test.csv --format csv > output.csv
+
+It is recommended to use OpenVAS as an open source, free scanner that can be easily synchronised in the workflow with Vulnezer. 
+
+Example of using a scanner with Vulnezer
+
+<img width="777" height="486" alt="image" src="https://github.com/user-attachments/assets/58fa75f7-bff6-4cd5-bac0-77bddf74f21e" />
+The scanned object contains vulnerable versions of Apache, PHP, and MySQL servers. OpenVAS found vulnerabilities; the scanner report was sent to Vulnezer, which processed it using a ready-made framework and issued a result reflecting the actual risk. 
+
+
 
 Happy vulnerability fixing!
 
