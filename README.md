@@ -28,5 +28,6 @@ Vulnezer is a simple, transparent, and understandable program. Less than 10 mega
  2) Enter this data into Vulnezer (manually or CSV).
 
  3) Get the final result of the sequence for correction based on a composite formula (CVSS, EPSS, and KEV).
-<img width="700" height="431" alt="image" src="https://github.com/user-attachments/assets/0c562821-72bb-474a-aaee-404a36f0cd36" />
+<img width="960" height="600" alt="Logic" src="https://github.com/user-attachments/assets/626acf96-ca83-4d2c-b558-ab22cf16a8e5" />
+
 <img width="2530" height="1109" alt="image" src="https://github.com/user-attachments/assets/f7c354ad-b974-4ed4-98b3-1f4f9c7175b4" />
