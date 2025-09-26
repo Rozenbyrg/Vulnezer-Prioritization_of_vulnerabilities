@@ -1,7 +1,8 @@
 # Vulnezer-Prioritization_of_vulnerabilities
 Python program for prioritising vulnerabilities found using a framework that utilises CVSS, KEV, and EPSS. 
 The program offers an improved approach compared to the classic CVSS.
-<img width="1464" height="817" alt="image" src="https://github.com/user-attachments/assets/628de235-f04d-49bd-aa83-10d7d7367f73" />
+<img width="765" height="424" alt="image" src="https://github.com/user-attachments/assets/bde931b2-ccfb-45a5-96c6-c067ed0d7750" />
+
 
 Confirmed CVSS problems are:
 
