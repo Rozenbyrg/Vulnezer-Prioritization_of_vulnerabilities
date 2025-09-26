@@ -62,9 +62,8 @@ It is recommended to use OpenVAS as an open source, free scanner that can be eas
 Example of using a scanner with Vulnezer
 
 <img width="777" height="486" alt="image" src="https://github.com/user-attachments/assets/58fa75f7-bff6-4cd5-bac0-77bddf74f21e" />
+
 The scanned object contains vulnerable versions of Apache, PHP, and MySQL servers. OpenVAS found vulnerabilities; the scanner report was sent to Vulnezer, which processed it using a ready-made framework and issued a result reflecting the actual risk. 
-
-
 
 Happy vulnerability fixing!
 
